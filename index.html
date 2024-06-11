@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Simulador de Financiamento</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+ <h2> Simulador de Financiamento</h2>
+ <input id="textoValor" type="text" placeholder="Valor do Bem"><br>
+ <input id="textoEntrada" type="text" placeholder="Valor da Entrada"><br>
+ <input id="textoTaxaJuros" type="text" placeholder="Taxa de Juros %"><br>
+ <input id="textoPrazo" type="text" placeholder="Prazo"><br>
+ <button id="botaoCalc">Calcular</button>
+ <input id="comCarencia" type="checkbox">Com carência?
+ <select id="listaSusp" hidden>
+    <option value="2">2 meses</option>
+    <option value="3">3 meses</option>
+    <option value="4">4 meses</option>
+ </select>
+ <script src="index.js"></script>
+</body>
+</html>
